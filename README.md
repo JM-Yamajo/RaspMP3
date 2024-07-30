@@ -1,34 +1,31 @@
-# GUI MP3 raspbian
+# MP3 Player Project
 
+This project is an MP3 player application developed as a scholarly project at ITESM Campus Puebla.
 
+## File Setup
 
-## Tips
+1. **Ensure the MP3.DESKTOP file is on the desktop.**
+2. **Move the entire MP3 folder to the following path:**  
+   `/home/pi/Documents/TE2003`
+   - **Note:** If this directory doesn't exist, create it. Otherwise, you will need to modify the `MP3.DESKTOP` file and the `mp3_dir` file accordingly.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install PyQt5
-
-```bash
-pip install PyQt5
-```
-- The MP3.DESKTOP file needs to be on the desktop
-- Move all the MP3 folder to the next path: /home/pi/Documents/TE2003
-
----
-##### **Note: if you don´t have a directory I suggest you create it otherwise you will have to modify the MP3.DESKTOP file and mp3_dir file.** 
----
 ## Usage
 
-* To open the program click on the **MP3.DESKTOP file** 
-* The program starts playing the first song on the list
-* Press the **Play/Pause** button to resume or pause the music
-* Press the **Alto** button to stop the music
-* Press the **Siguiente** button to play the next song in the list
-* Press the **Anterior** button to play the preview song in the list
-* Another option to  ***play*** the music is clicking on the list
+To launch the program, follow these steps:
 
+1. Click on the `MP3.DESKTOP` file.
+2. The program will automatically start playing the first song in the list.
+3. Use the following controls:
+   - **Play/Pause:** Resume or pause the music.
+   - **Stop (Alto):** Stop the music.
+   - **Next (Siguiente):** Play the next song in the list.
+   - **Previous (Anterior):** Play the previous song in the list.
+4. Alternatively, click on any song in the list to play it.
 
 ## Authors
-This is a scholar project by ITESM Campus Puebla, created by:
-* @JM-Yamajo
-* @SanthA25
-* @Antonio Silva
 
+This project was created by:
+
+- [@JM-Yamajo](https://github.com/JM-Yamajo)
+- [@SanthA25](https://github.com/SanthA25)
+- Antonio Silva
