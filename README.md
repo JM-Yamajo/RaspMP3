@@ -1,7 +1,7 @@
-# MP3 Player Project
+#  GUI-Based MP3 Music Player on Raspberry Pi
 
-This project is an MP3 player application developed as a scholarly project at ITESM Campus Puebla.
-
+ This project showcases the integration of embedded systems by developing a music player with a graphical interface on a Raspberry Pi 3, interfacing with an Arduino-controlled matrix keypad for physical interaction. The Raspberry Pi handles the GUI and audio playback, while the Arduino processes user inputs via I2C/UART communication. The system enables song selection, play/pause, stop, track navigation, and volume control, demonstrating real-time interaction between multiple embedded platforms.
+ 
 ## File Setup
 
 1. **Ensure the MP3.DESKTOP file is on the desktop.**
